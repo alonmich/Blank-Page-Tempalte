@@ -9,6 +9,6 @@
  * License:     MIT
  */
 
-// if (function_exists( 'wp_version_check' )) {
+if (function_exists( 'wp_version_check' )) {
     require_once(__DIR__ . '/cms/wp/functions.php');
-// }
+}

@@ -47,6 +47,14 @@ if ( ! function_exists( 'blank_page_template_add_template_to_admin' ) ) {
                 return array_merge( $templates , $blank_page_template);
             }
         );
+        
+        add_filter(
+            'theme_post_templates',
+            function ( array $templates ) use ($file,$label) {
+                $blank_page_template = array($file => $label);
+                return array_merge( $templates , $blank_page_template);
+            }
+        );
     }
 }
 
