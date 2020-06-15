@@ -27,7 +27,8 @@ No, it is clean as it can get.
 
 == Screenshots ==
 
-1. Not too hard to imagine - a blank, totally empty, page or post.
+1. This is how you configure it - blank-template-admin-configuration.jpg
+2. Not too hard to imagine - a blank, totally empty, page or post.
 
 == Changelog ==
 
